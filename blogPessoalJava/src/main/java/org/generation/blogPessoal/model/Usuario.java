@@ -14,7 +14,7 @@ public class Usuario {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private String id;
+	private long id;
 	
 	@NotNull
 	@Size(min = 2, max = 100)
@@ -28,11 +28,11 @@ public class Usuario {
 	@Size(min = 5, max = 100)
 	private String senha;
 
-	public String getId() {
+	public long getId() {
 		return id;
 	}
 
-	public void setId(String id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
