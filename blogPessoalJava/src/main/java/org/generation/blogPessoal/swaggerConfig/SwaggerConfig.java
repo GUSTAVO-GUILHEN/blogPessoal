@@ -32,7 +32,7 @@ public class SwaggerConfig {
 	}
 
 	private Contact contact() {
-		return new Contact("Alonso Mendes", "https://github.com/AlonsoMendes",
+		return new Contact("Gustavo Guilhen", "https://github.com/GUSTAVO-GUILHEN",
 				"Desenvolvedor Java full stack ");
 
 	}
